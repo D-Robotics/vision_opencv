@@ -3,6 +3,11 @@ project(cv_bridge)
 
 find_package(ament_cmake_ros REQUIRED)
 
+set(CMAKE_VERBOSE_MAKEFILE ON)
+set(Python3_INCLUDE_DIR /usr/include/python3.8)
+set(Python3_EXECUTABLE /usr/bin/python3.8)
+set(Python3_NumPy_INCLUDE_DIR /usr/lib/python3/dist-packages/numpy/core/include)
+
 # Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 14)
