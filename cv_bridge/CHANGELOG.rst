@@ -2,6 +2,10 @@
 Changelog for package cv_bridge
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+hhp_1.0.3 (2022-07-20)
+------------------
+* 增加交叉编译支持
+
 3.0.3 (2022-04-01)
 ------------------
 * Add missing dependency on rcpputils (`#427 <https://github.com/ros-perception/vision_opencv/issues/427>`_)
