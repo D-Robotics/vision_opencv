@@ -1,4 +1,7 @@
-English| [简体中文](./README_cn.md)
+[English](./README.md) | 简体中文
+
+cv_bridge
+==========
 
 # Introduction
 
@@ -46,7 +49,9 @@ colcon build --symlink-install
 ### Run the tests
 Python tests have a dependency on OpenCV Python support.  To install it:
 ```bash
-pip3 install opencv-python```
+pip3 install opencv-python
+
+```
 Next to prepare runtime environment and run tests:
 ```bash
 
@@ -58,4 +63,3 @@ colcon test
 # Known issues
 * `boost endian`: remove boost endian APIs with standard C++ 11 or higher instead
 * Not tested with Windows or macOS environments so there may be issues building or running
-```
